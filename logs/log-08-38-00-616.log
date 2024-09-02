@@ -1,0 +1,9 @@
+2024-08-25 19:00:47,389 INFO c.i.t.p.i.StudentDaoImpl [main] StudentDaoImpl initialized with database URL: jdbc:mysql://localhost:3306/studentapp
+2024-08-25 19:01:15,159 WARN c.i.t.p.i.StudentDaoImpl [main] Student with ID 504 not found
+2024-08-25 19:01:57,009 INFO c.i.t.p.i.StudentDaoImpl [main] Student deleted successfully for ID 506
+2024-08-25 19:02:18,348 WARN c.i.t.p.i.StudentDaoImpl [main] Student with ID 506 not found
+2024-08-25 19:02:18,348 ERROR c.i.t.p.i.StudentDaoImpl [main] Error fetching student data for ID 506
+java.sql.SQLException: Student not found.
+	at com.indus.training.persist.impl.StudentDaoImpl.fetchStudent(StudentDaoImpl.java:91) ~[IndusStudentPersistenceJDBC-0.0.1-SNAPSHOT.jar:?]
+	at com.indus.training.ui.IndusStudentUserInterface.fetchStudent(IndusStudentUserInterface.java:115) ~[classes/:?]
+	at com.indus.training.ui.IndusStudentUserInterface.main(IndusStudentUserInterface.java:235) ~[classes/:?]

@@ -1,0 +1,5 @@
+2024-08-27 08:38:00,614 INFO c.i.t.p.i.StudentDaoImpl [main] StudentDaoImpl initialized with database URL: jdbc:mysql://localhost:3306/studentapp
+2024-08-27 08:38:13,621 INFO c.i.t.p.i.StudentDaoImpl [main] Student inserted successfully with ID 231
+2024-08-27 08:39:52,415 INFO c.i.t.p.i.StudentDaoImpl [main] Student deleted successfully for ID 231
+2024-08-27 08:42:30,810 INFO c.i.t.p.i.StudentDaoImpl [main] Student inserted successfully with ID 1045
+2024-08-27 08:42:42,855 INFO c.i.t.p.i.StudentDaoImpl [main] Student inserted successfully with ID 1056
